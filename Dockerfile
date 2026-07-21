@@ -5,7 +5,7 @@ RUN chmod 777 /usr/src/app
 
 COPY . .
 RUN pip3 install --upgrade setuptools
-RUN pip3 install --use-pep517 pymediainfo==5.1.0
+RUN pip3 install --use-pep517 pymediainfo==6.1.0
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 CMD ["bash", "start.sh"]
