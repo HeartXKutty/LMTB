@@ -17,10 +17,11 @@ google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib
 gunicorn
-git+https://github.com/zevtyardt/lk21.git
 httpx
 langcodes[data]
 lxml
+lk21
+imdbinfo
 motor
 mutagen
 markdown
@@ -31,7 +32,7 @@ psutil
 pybase64
 pycountry
 pymongo
-pyrofork==2.2.11
+pyrofork==2.3.11
 python-dotenv
 python-magic
 qbittorrent-api
@@ -40,9 +41,13 @@ speedtest-cli
 telegraph
 tenacity
 tgcrypto
+tzlocal
 uv
 uvloop==0.21.0
+vcs-versioning
 xattr
 yt-dlp
 setuptools
-pymediainfo==6.0.1
+pymediainfo
+language-data
+langcodes
